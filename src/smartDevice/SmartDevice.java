@@ -5,6 +5,10 @@ public abstract class  SmartDevice {
     double price;
     int id;
 
+    public SmartDevice() {
+
+    }
+
     public SmartDevice(String company, double price, int id) {
         this.company = company;
         this.price = price;
